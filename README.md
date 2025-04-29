@@ -7,6 +7,7 @@
 #include <ctime>
 #include <fstream>
 using namespace std;
+
 const int EASY = 9;
 const int MEDIUM = 15;
 const int HARD = 20;
@@ -227,6 +228,7 @@ void play_game()
 	}
 	
 }
+
 void unique_highlight(char grid[][HARD], char grid2[][HARD], int x, int y)
 {
 	
@@ -261,6 +263,7 @@ void unique_highlight(char grid[][HARD], char grid2[][HARD], int x, int y)
 		mine_count = 0;
 	}
 }
+
 	void initialise_board(char grid[][HARD])
 	{
 		for (int i = 0; i < rows; i++)
