@@ -7,7 +7,6 @@
 #include <ctime>
 #include <fstream>
 using namespace std;
-
 const int EASY = 9;
 const int MEDIUM = 15;
 const int HARD = 20;
